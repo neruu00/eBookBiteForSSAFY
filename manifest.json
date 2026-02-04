@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "eBookBiteForSSAFY",
+  "version": "1.0",
+   "icons": {
+    "16": "/public/icon16.png",
+    "32": "/public/icon32.png",
+    "48": "/public/icon48.png",
+    "128": "/public/icon128.png"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://edu.ssafy.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://edu.ssafy.com/*"], 
+      "js": ["content.js"],
+      "world": "MAIN"
+    }
+  ]
+}
