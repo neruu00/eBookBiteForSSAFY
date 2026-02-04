@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "eBookBiteForSSAFY",
   "version": "1.0",
+   "description" : "eBook을 물어오는 귀여운 강아지. edu.ssafy의 eBook 팝업을 브라우저 탭으로 열어줍니다.",
    "icons": {
     "16": "/public/icon16.png",
     "32": "/public/icon32.png",
