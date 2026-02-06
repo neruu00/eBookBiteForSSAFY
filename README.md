@@ -32,7 +32,17 @@ git clone https://github.com/neruu00/eBookBiteForSSAFY.git
 
 2. 클론 받은 프로젝트 폴더 선택
 
+## 업데이트 방법
 
+### 1. 최신 정보 패칭
 
+레포지토리에서 최신 정보를 `pull` 받는다.
 
+```
+git pull origin main
+```
 
+### 2. 확장 프로그램 업데이트 정보 로드
+
+1. 확장 프로그램 페이지로 들어간다.
+2. eBookBiteForSSAFY를 새로고침 한다. : `↺` 버튼 클릭
